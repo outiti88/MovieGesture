@@ -1,4 +1,5 @@
 import { LightningElement } from 'lwc';
+import methodName from '@salesforce/apex/MovieGestureController.methodName';
 
 export default class MovieGesture extends LightningElement {
 
