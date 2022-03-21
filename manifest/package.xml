@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Actor__c</members>
+		<members>MovieActor__c</members>
+		<members>Movie__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>Actor__c</members>
+		<members>MovieActor__c</members>
+		<members>Movie__c</members>
+		<members>Movies_Gesture</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Actor__c-Actor Layout</members>
+		<members>MovieActor__c-MovieActor Layout</members>
+		<members>Movie__c-Movie Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>filterMovies</members>
+		<members>movieGesture</members>
+		<members>moviePreview</members>
+		<members>moviesResults</members>
+		<members>newMovieModal</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Admin</members>
+		<name>Profile</name>
+	</types>
+	<version>53.0</version>
+</Package>

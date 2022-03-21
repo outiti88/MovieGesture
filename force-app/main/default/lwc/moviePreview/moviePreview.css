@@ -1,0 +1,9 @@
+.preview{
+    border: solid #cccccc;
+    border-radius: 8px;
+    padding: 1.5rem 1rem;
+}
+
+.image{
+    margin-bottom: 2rem;
+}

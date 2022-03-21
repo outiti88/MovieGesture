@@ -1,0 +1,60 @@
+<template>
+    <article class="slds-card">
+        <div class="slds-page-header slds-m-bottom_medium">
+            <div class="slds-page-header__row flex-container">
+              <div class="slds-page-header__col-title">
+                <div class="slds-media">
+                  <div class="slds-media__figure">
+                    <span class="slds-icon_container">
+                      <lightning-icon
+                        icon-name="standard:link"
+                        alternative-text="Linking"
+                        title="Linking"
+                      ></lightning-icon>
+                    </span>
+                  </div>
+                  <div class="slds-media__body">
+                    <div class="slds-page-header__name">
+                      <div class="slds-page-header__name-title">
+                        <h1>
+                          <span
+                            class="slds-page-header__title slds-truncate"
+                            title="Linking Page">Gestion des films</span>
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slds-page-header__col-actions">
+                <div class="slds-page-header__controls">
+                  <div class="slds-page-header__control">
+                    <ul class="slds-button-group-list">
+                      <li>
+                        <button onclick={openModal} class="slds-button slds-button_neutral">Nouveau Film</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="container">
+            <div>
+                <c-filter-movies></c-filter-movies>
+                <c-movies-results></c-movies-results>
+            </div>
+            <div>
+                <c-movie-preview></c-movie-preview>
+            </div>
+        </div>
+
+    </article>
+
+    <template if:true={isModalOpen}>
+        <c-new-movie-modal></c-new-movie-modal>
+    </template>
+
+</template>

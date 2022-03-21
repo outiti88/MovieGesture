@@ -1,0 +1,26 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+
+.grid-item{
+    border: solid #cccccc;;
+    padding: 1.5rem 1rem;
+    border-radius: 8px;
+}
+
+.grid-item :hover{
+    cursor: pointer;
+}
+
+.infos{
+    margin-top: 1rem;
+}
+.image{
+    overflow: hidden;
+}
+
+.image :hover{
+    transform: scale(1.1); 
+}
