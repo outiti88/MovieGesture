@@ -21,6 +21,10 @@
     overflow: hidden;
 }
 
+.image img {
+    transition : 200ms ease-in-out;
+}
+
 .image :hover{
     transform: scale(1.1); 
 }
